@@ -1,0 +1,55 @@
+.main-wrapper {
+    height: 100vh;
+    background: url(../../assets/images/bg.jpg)  no-repeat center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.button-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.fa {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    width: 300px;
+    text-decoration: none;
+    margin: 5px 2px;
+    border: none;
+}
+
+.google-auth {
+    background: #dd4b39;
+    color: white;
+}
+
+.fb-auth {
+    background: #3B5998;
+    color: white;
+}
+.vk-auth{
+    background: #467FC2;
+    color: white;
+}
+
+.fb-auth:hover{
+    transition: .3s;
+    background: #6d87bf;
+}
+.vk-auth:hover{
+    transition: .3s;
+    background: #78b0f0;
+}
+.google-auth:hover {
+    transition: .3s;
+    background: #ff7563;
+}
